@@ -1,13 +1,12 @@
 <div align="center">
    <img
-    src="https://raw.githubusercontent.com/andreyryabov/ZeneraNeo/main/docs/imgs/zenera-logo-with-media-queries.svg"
+    src="https://raw.githubusercontent.com/andreyryabov/ZeneraNeo/refs/heads/main/docs/imgs/Zenera-left-with-media-queries.svg"
     alt="Zenera Logo"
     width="120"
   />
 
-  # Zenera
 
-  ### Build intelligent AI agents
+   **Build intelligent AI agents**
 
   [Website](https://zenera.ai) ·
   [GitHub](https://github.com/zenera-ai)
