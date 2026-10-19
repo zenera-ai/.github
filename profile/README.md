@@ -69,7 +69,7 @@ Explore the [Zenera Neo repository](https://github.com/zenera-ai/ZeneraNeo) for 
 
 ### Build with Zenera
 
-**[zenera.ai](https://zenera.ai)** · **[GitHub repositories](https://github.com/orgs/zenera-ai/repositories)** · **[LinkedIn](https://www.linkedin.com/company/zenera-ai)** · **[YouTube](https://www.youtube.com/@Zenera_AI)**
+**[zenera.ai](https://zenera.ai)** · **[LinkedIn](https://www.linkedin.com/company/zenera-ai)** · **[YouTube](https://www.youtube.com/@Zenera_AI)**
 
 <sub>Made for teams building intelligent agent systems.</sub>
 
