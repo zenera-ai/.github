@@ -16,11 +16,13 @@
 
 ## Our Projects
 
-### Zenera Neo
-Build and run multi-agent AI systems.
+- [Zenera Neo](https://github.com/andreyryabov/ZeneraNeo) — Build and run multi-agent AI systems.
 
-### Zenera CLI
-Developer tools for building with Zenera.
+## Packages
 
-### Zenera Faker
-Mock integrations and data for testing agents.
+| Package | Role |
+| --- | --- |
+| [`@zenera/cli`](https://github.com/andreyryabov/ZeneraNeo/blob/main/packages/cli/README.md) | The `zen` command-line workflow for creating projects, generating agent systems, running them, testing them, and inspecting their trajectories. |
+| [`@zenera/neo`](https://github.com/andreyryabov/ZeneraNeo/blob/main/packages/neo/README.md) | The TypeScript runtime for applications that need agents, models, tools, skills, memory, trajectories, and project loading directly in code. |
+| [`@zenera/rag`](https://github.com/andreyryabov/ZeneraNeo/blob/main/packages/rag/README.md) | Advanced retrieval for agent knowledge: semantic, full-text, and hybrid search over documents, plus graph-aware API schema indexing and search. |
+| [`@zenera/faker`](https://github.com/andreyryabov/ZeneraNeo/blob/main/packages/faker/README.md) | Mock API generation from OpenAPI and Swagger descriptions, with generated behavior validated against the API contract. |
