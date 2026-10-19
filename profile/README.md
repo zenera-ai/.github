@@ -1,7 +1,7 @@
 <div align="center">
 
-<img src="./assets/zenera-hero-light.svg#gh-dark-mode-only" alt="Zenera — Build intelligent AI agents" width="100%" />
-<img src="./assets/zenera-hero-dark.svg#gh-light-mode-only" alt="Zenera — Build intelligent AI agents" width="100%" />
+<img src="./assets/zenera-hero-dark.svg#gh-dark-mode-only" alt="Zenera — Build intelligent AI agents" width="100%" />
+<img src="./assets/zenera-hero-light.svg#gh-light-mode-only" alt="Zenera — Build intelligent AI agents" width="100%" />
 
 ### Build specialized AI agents from a specification.
 
@@ -45,8 +45,8 @@ zen --help
 
 <div align="center">
 
-<img src="./assets/workflow-light.svg#gh-dark-mode-only" alt="Workflow: Define a specification, build agents using a meta-agent, run and inspect the project, then refine the specification" width="100%" />
-<img src="./assets/workflow-dark.svg#gh-light-mode-only" alt="Workflow: Define a specification, build agents using a meta-agent, run and inspect the project, then refine the specification" width="100%" />
+<img src="./assets/workflow-dark.svg#gh-dark-mode-only" alt="Workflow: Define a specification, build agents using a meta-agent, run and inspect the project, then refine the specification" width="100%" />
+<img src="./assets/workflow-light.svg#gh-light-mode-only" alt="Workflow: Define a specification, build agents using a meta-agent, run and inspect the project, then refine the specification" width="100%" />
 
 </div>
 
