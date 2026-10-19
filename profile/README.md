@@ -1,7 +1,7 @@
 <div align="center">
 
 <img src="./assets/zenera-hero-dark.svg#gh-dark-mode-only" alt="Zenera — Build intelligent AI agents" width="100%" />
-<img src="./assets/zenera-hero-dark.svg#gh-light-mode-only" alt="Zenera — Build intelligent AI agents" width="100%" />
+<img src="./assets/zenera-hero-light.svg#gh-light-mode-only" alt="Zenera — Build intelligent AI agents" width="100%" />
 
 ### Build specialized AI agents from a specification.
 
