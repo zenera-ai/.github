@@ -20,7 +20,7 @@ Zenera brings together the tools needed to build and operate agent-based applica
 | Package | What it's for |
 | :--- | :--- |
 | **[@zenera/cli](https://www.npmjs.com/package/@zenera/cli)** | The `zen` command-line workflow for creating projects, generating agent systems, running them, testing them, and inspecting their trajectories. |
-| **[@zenera/cli](https://www.npmjs.com/package/@zenera/neo)** | A TypeScript runtime for agents, models, tools, skills, memory, trajectories, and project loading. |
+| **[@zenera/neo](https://www.npmjs.com/package/@zenera/neo)** | A TypeScript runtime for agents, models, tools, skills, memory, trajectories, and project loading. |
 | **[@zenera/rag](https://www.npmjs.com/package/@zenera/rag)** | Semantic, full-text, and hybrid retrieval for documents, plus graph-aware API schema search. |
 | **[@zenera/faker](https://www.npmjs.com/package/@zenera/faker)** | Generate mock APIs from OpenAPI / Swagger descriptions and validate generated behavior against the contract. |
 
