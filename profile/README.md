@@ -7,7 +7,7 @@
 
 Design, run, test, and improve agent systems with the Zenera developer toolkit.
 
-[**Website**](https://zenera.ai) · [**Explore Neo**](https://github.com/zenera-ai/ZeneraNeo) · [**npm packages**](https://www.npmjs.com/search?q=%40zenera%2F)
+[**Website**](https://zenera.ai) · [**Explore Neo**](https://github.com/zenera-ai/ZeneraNeo) · [**NPM**](https://www.npmjs.com/package/@zenera/cli)
 
 </div>
 
@@ -17,12 +17,12 @@ Design, run, test, and improve agent systems with the Zenera developer toolkit.
 
 Zenera brings together the tools needed to build and operate agent-based applications, from specification to execution.
 
-| | Package | What it's for |
-| :---: | :--- | :--- |
-| 🧭 | **[Zenera CLI](https://www.npmjs.com/package/@zenera/cli)** | The `zen` command-line workflow for creating projects, generating agent systems, running them, testing them, and inspecting their trajectories. |
-| ⚙️ | **[Zenera Neo](https://www.npmjs.com/package/@zenera/neo)** | A TypeScript runtime for agents, models, tools, skills, memory, trajectories, and project loading. |
-| 🔎 | **[Zenera RAG](https://www.npmjs.com/package/@zenera/rag)** | Semantic, full-text, and hybrid retrieval for documents, plus graph-aware API schema search. |
-| 🧪 | **[Zenera Faker](https://www.npmjs.com/package/@zenera/faker)** | Generate mock APIs from OpenAPI / Swagger descriptions and validate generated behavior against the contract. |
+| Package | What it's for |
+| :--- | :--- |
+| **[@zenera/cli](https://www.npmjs.com/package/@zenera/cli)** | The `zen` command-line workflow for creating projects, generating agent systems, running them, testing them, and inspecting their trajectories. |
+| **[@zenera/cli](https://www.npmjs.com/package/@zenera/neo)** | A TypeScript runtime for agents, models, tools, skills, memory, trajectories, and project loading. |
+| **[@zenera/rag](https://www.npmjs.com/package/@zenera/rag)** | Semantic, full-text, and hybrid retrieval for documents, plus graph-aware API schema search. |
+| **[@zenera/faker](https://www.npmjs.com/package/@zenera/faker)** | Generate mock APIs from OpenAPI / Swagger descriptions and validate generated behavior against the contract. |
 
 ## Get started
 
@@ -49,8 +49,6 @@ zen --help
 <img src="./assets/workflow-light.svg#gh-light-mode-only" alt="Workflow: Define a specification, build agents using a meta-agent, run and inspect the project, then refine the specification" width="100%" />
 
 </div>
-
-**Define → Generate → Run → Inspect → Improve**
 
 Start from a project specification, use the meta-agent to create or update the implementation, validate the result, and feed findings back into the spec.
 
