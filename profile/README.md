@@ -35,7 +35,8 @@ zen --help
 Four complementary packages take you from an initial specification to running agents and working integrations.
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/@zenera/cli"><img src="./assets/card-cli-light.svg#gh-light-mode-only" alt="Zenera CLI — Build and operate agent projects" width="49%" /><img src="./assets/card-cli-dark.svg#gh-dark-mode-only" alt="Zenera CLI — Build and operate agent projects" width="49%" /></a>
+  <a href="https://www.npmjs.com/package/@zenera/cli"><img src="./assets/card-cli-light.svg#gh-light-mode-only" alt="Zenera CLI — Build and operate agent projects" width="49%" />
+  <img src="./assets/card-cli-dark.svg#gh-dark-mode-only" alt="Zenera CLI — Build and operate agent projects" width="49%" /></a>
   <a href="https://www.npmjs.com/package/@zenera/neo"><img src="./assets/card-neo-light.svg#gh-light-mode-only" alt="Zenera Neo — TypeScript runtime for agent systems" width="49%" /><img src="./assets/card-neo-dark.svg#gh-dark-mode-only" alt="Zenera Neo — TypeScript runtime for agent systems" width="49%" /></a>
   <a href="https://www.npmjs.com/package/@zenera/rag"><img src="./assets/card-rag-light.svg#gh-light-mode-only" alt="Zenera RAG — Knowledge retrieval for documents and APIs" width="49%" /><img src="./assets/card-rag-dark.svg#gh-dark-mode-only" alt="Zenera RAG — Knowledge retrieval for documents and APIs" width="49%" /></a>
   <a href="https://www.npmjs.com/package/@zenera/faker"><img src="./assets/card-faker-light.svg#gh-light-mode-only" alt="Zenera Faker — Mock integrations and generated APIs" width="49%" /><img src="./assets/card-faker-dark.svg#gh-dark-mode-only" alt="Zenera Faker — Mock integrations and generated APIs" width="49%" /></a>
