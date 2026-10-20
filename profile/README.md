@@ -34,56 +34,18 @@ zen --help
 
 Four complementary packages take you from an initial specification to running agents and working integrations.
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-<h3><img src="./assets/icon-cli.svg" alt="" width="23" height="23" /> <a href="https://www.npmjs.com/package/@zenera/cli">Zenera CLI</a></h3>
-
-<strong>Build and operate</strong>
-
-Create projects, generate agent systems, run tests, and inspect trajectories with the <code>zen</code> command-line workflow.
-
-<a href="https://www.npmjs.com/package/@zenera/cli"><code>@zenera/cli</code></a>
-
-</td>
-<td width="50%" valign="top">
-
-<h3><img src="./assets/icon-neo.svg" alt="" width="23" height="23" /> <a href="https://www.npmjs.com/package/@zenera/neo">Zenera Neo</a></h3>
-
-<strong>Agent runtime</strong>
-
-A TypeScript runtime for agents, models, tools, skills, memory, trajectories, and project loading.
-
-<a href="https://www.npmjs.com/package/@zenera/neo"><code>@zenera/neo</code></a>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<h3><img src="./assets/icon-rag.svg" alt="" width="23" height="23" /> <a href="https://www.npmjs.com/package/@zenera/rag">Zenera RAG</a></h3>
-
-<strong>Knowledge retrieval</strong>
-
-Semantic, full-text, and hybrid document retrieval, plus graph-aware API schema search.
-
-<a href="https://www.npmjs.com/package/@zenera/rag"><code>@zenera/rag</code></a>
-
-</td>
-<td width="50%" valign="top">
-
-<h3><img src="./assets/icon-faker.svg" alt="" width="23" height="23" /> <a href="https://www.npmjs.com/package/@zenera/faker">Zenera Faker</a></h3>
-
-<strong>Mock integrations</strong>
-
-Generate mock APIs from OpenAPI / Swagger descriptions and validate behavior against the contract.
-
-<a href="https://www.npmjs.com/package/@zenera/faker"><code>@zenera/faker</code></a>
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <a href="https://www.npmjs.com/package/@zenera/cli"><img src="./assets/card-cli-light.svg#gh-light-mode-only" alt="Zenera CLI — Build and operate agent projects" width="49%" /></a>
+  <a href="https://www.npmjs.com/package/@zenera/cli"><img src="./assets/card-cli-dark.svg#gh-dark-mode-only" alt="Zenera CLI — Build and operate agent projects" width="49%" /></a>
+  <a href="https://www.npmjs.com/package/@zenera/neo"><img src="./assets/card-neo-light.svg#gh-light-mode-only" alt="Zenera Neo — TypeScript runtime for agent systems" width="49%" /></a>
+  <a href="https://www.npmjs.com/package/@zenera/neo"><img src="./assets/card-neo-dark.svg#gh-dark-mode-only" alt="Zenera Neo — TypeScript runtime for agent systems" width="49%" /></a>
+</p>
+<p align="center">
+  <a href="https://www.npmjs.com/package/@zenera/rag"><img src="./assets/card-rag-light.svg#gh-light-mode-only" alt="Zenera RAG — Knowledge retrieval for documents and APIs" width="49%" /></a>
+  <a href="https://www.npmjs.com/package/@zenera/rag"><img src="./assets/card-rag-dark.svg#gh-dark-mode-only" alt="Zenera RAG — Knowledge retrieval for documents and APIs" width="49%" /></a>
+  <a href="https://www.npmjs.com/package/@zenera/faker"><img src="./assets/card-faker-light.svg#gh-light-mode-only" alt="Zenera Faker — Mock integrations and generated APIs" width="49%" /></a>
+  <a href="https://www.npmjs.com/package/@zenera/faker"><img src="./assets/card-faker-dark.svg#gh-dark-mode-only" alt="Zenera Faker — Mock integrations and generated APIs" width="49%" /></a>
+</p>
 
 ## From specification to running agents
 
@@ -100,48 +62,18 @@ Start with a project specification. Use the meta-agent to create or update the i
 
 Explore example systems that combine specialized agents, tools, and integrations.
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-<h3>💻 AI software development team</h3>
-
-Coordinate specialized agents to plan, implement, and review a software project.
-
-<strong>Focus:</strong> Multi-agent collaboration
-
-</td>
-<td width="50%" valign="top">
-
-<h3>📅 Meeting coordinator</h3>
-
-Combine scheduling, communication, and task-handling agents in one workflow.
-
-<strong>Focus:</strong> Connected tools and orchestration
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<h3>📚 Document Q&A</h3>
-
-Connect agents to source documents and retrieve context with Zenera RAG.
-
-<strong>Focus:</strong> Retrieval and grounding
-
-</td>
-<td width="50%" valign="top">
-
-<h3>🔌 API prototyping</h3>
-
-Mock integrations with Zenera Faker before the real backend is available.
-
-<strong>Focus:</strong> Testing without live services
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <img src="./assets/usecase-dev-light.svg#gh-light-mode-only" alt="AI software development team use case" width="49%" />
+  <img src="./assets/usecase-dev-dark.svg#gh-dark-mode-only" alt="AI software development team use case" width="49%" />
+  <img src="./assets/usecase-meeting-light.svg#gh-light-mode-only" alt="Meeting coordinator use case" width="49%" />
+  <img src="./assets/usecase-meeting-dark.svg#gh-dark-mode-only" alt="Meeting coordinator use case" width="49%" />
+</p>
+<p align="center">
+  <img src="./assets/usecase-docs-light.svg#gh-light-mode-only" alt="Document Q&A use case" width="49%" />
+  <img src="./assets/usecase-docs-dark.svg#gh-dark-mode-only" alt="Document Q&A use case" width="49%" />
+  <img src="./assets/usecase-api-light.svg#gh-light-mode-only" alt="API prototyping use case" width="49%" />
+  <img src="./assets/usecase-api-dark.svg#gh-dark-mode-only" alt="API prototyping use case" width="49%" />
+</p>
 
 Explore [Zenera Neo](https://github.com/zenera-ai/ZeneraNeo) for project structure, examples, and usage guidance.
 
