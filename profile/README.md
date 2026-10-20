@@ -13,17 +13,6 @@ Design, run, test, and improve agent systems with the Zenera developer toolkit.
 
 ---
 
-## Meet the toolkit
-
-Zenera brings together the tools needed to build and operate agent-based applications, from specification to execution.
-
-| Package | What it's for |
-| :--- | :--- |
-| **[@zenera/cli](https://www.npmjs.com/package/@zenera/cli)** | The `zen` command-line workflow for creating projects, generating agent systems, running them, testing them, and inspecting their trajectories. |
-| **[@zenera/neo](https://www.npmjs.com/package/@zenera/neo)** | A TypeScript runtime for agents, models, tools, skills, memory, trajectories, and project loading. |
-| **[@zenera/rag](https://www.npmjs.com/package/@zenera/rag)** | Semantic, full-text, and hybrid retrieval for documents, plus graph-aware API schema search. |
-| **[@zenera/faker](https://www.npmjs.com/package/@zenera/faker)** | Generate mock APIs from OpenAPI / Swagger descriptions and validate generated behavior against the contract. |
-
 ## Get started
 
 Install the toolkit globally:
@@ -39,29 +28,122 @@ zen --help
 ```
 
 > [!TIP]
-> Want to understand the agent-building workflow? Start with **[Zenera Neo](https://github.com/zenera-ai/ZeneraNeo)**.
+> New to building agent systems? Start with the [Zenera Neo repository](https://github.com/zenera-ai/ZeneraNeo) for project structure, examples, and setup guidance.
+
+## Meet the toolkit
+
+Four complementary packages take you from an initial specification to running agents and working integrations.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<h3><img src="./assets/icon-cli.svg" alt="" width="23" height="23" /> <a href="https://www.npmjs.com/package/@zenera/cli">Zenera CLI</a></h3>
+
+<strong>Build and operate</strong>
+
+Create projects, generate agent systems, run tests, and inspect trajectories with the <code>zen</code> command-line workflow.
+
+<a href="https://www.npmjs.com/package/@zenera/cli"><code>@zenera/cli</code></a>
+
+</td>
+<td width="50%" valign="top">
+
+<h3><img src="./assets/icon-neo.svg" alt="" width="23" height="23" /> <a href="https://www.npmjs.com/package/@zenera/neo">Zenera Neo</a></h3>
+
+<strong>Agent runtime</strong>
+
+A TypeScript runtime for agents, models, tools, skills, memory, trajectories, and project loading.
+
+<a href="https://www.npmjs.com/package/@zenera/neo"><code>@zenera/neo</code></a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<h3><img src="./assets/icon-rag.svg" alt="" width="23" height="23" /> <a href="https://www.npmjs.com/package/@zenera/rag">Zenera RAG</a></h3>
+
+<strong>Knowledge retrieval</strong>
+
+Semantic, full-text, and hybrid document retrieval, plus graph-aware API schema search.
+
+<a href="https://www.npmjs.com/package/@zenera/rag"><code>@zenera/rag</code></a>
+
+</td>
+<td width="50%" valign="top">
+
+<h3><img src="./assets/icon-faker.svg" alt="" width="23" height="23" /> <a href="https://www.npmjs.com/package/@zenera/faker">Zenera Faker</a></h3>
+
+<strong>Mock integrations</strong>
+
+Generate mock APIs from OpenAPI / Swagger descriptions and validate behavior against the contract.
+
+<a href="https://www.npmjs.com/package/@zenera/faker"><code>@zenera/faker</code></a>
+
+</td>
+</tr>
+</table>
 
 ## From specification to running agents
 
 <div align="center">
 
-<img src="./assets/workflow-dark.svg#gh-dark-mode-only" alt="Workflow: Define a specification, build agents using a meta-agent, run and inspect the project, then refine the specification" width="100%" />
-<img src="./assets/workflow-light.svg#gh-light-mode-only" alt="Workflow: Define a specification, build agents using a meta-agent, run and inspect the project, then refine the specification" width="100%" />
+<img src="./assets/workflow-dark.svg#gh-dark-mode-only" alt="Iterative workflow: Specify → Generate → Run and inspect → Improve → return to the specification" width="100%" />
+<img src="./assets/workflow-light.svg#gh-light-mode-only" alt="Iterative workflow: Specify → Generate → Run and inspect → Improve → return to the specification" width="100%" />
 
 </div>
 
-Start from a project specification, use the meta-agent to create or update the implementation, validate the result, and feed findings back into the spec.
+Start with a project specification. Use the meta-agent to create or update the implementation, run and inspect the result, then feed findings back into the spec. Repeat as the project evolves.
 
 ## What can you build?
 
-| Use case | Idea |
-| :--- | :--- |
-| **AI software development team** | Coordinate specialized agents to plan, implement, and review a software project. |
-| **Meeting coordinator** | Combine scheduling, communication, and task-handling agents into one workflow. |
-| **Document Q&A** | Connect agents to source documents and retrieve context with Zenera RAG. |
-| **API prototyping** | Use Zenera Faker to mock integrations before the real backend is available. |
+Explore example systems that combine specialized agents, tools, and integrations.
 
-Explore the [Zenera Neo repository](https://github.com/zenera-ai/ZeneraNeo) for project structure, examples, and usage guidance.
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<h3>💻 AI software development team</h3>
+
+Coordinate specialized agents to plan, implement, and review a software project.
+
+<strong>Focus:</strong> Multi-agent collaboration
+
+</td>
+<td width="50%" valign="top">
+
+<h3>📅 Meeting coordinator</h3>
+
+Combine scheduling, communication, and task-handling agents in one workflow.
+
+<strong>Focus:</strong> Connected tools and orchestration
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<h3>📚 Document Q&A</h3>
+
+Connect agents to source documents and retrieve context with Zenera RAG.
+
+<strong>Focus:</strong> Retrieval and grounding
+
+</td>
+<td width="50%" valign="top">
+
+<h3>🔌 API prototyping</h3>
+
+Mock integrations with Zenera Faker before the real backend is available.
+
+<strong>Focus:</strong> Testing without live services
+
+</td>
+</tr>
+</table>
+
+Explore [Zenera Neo](https://github.com/zenera-ai/ZeneraNeo) for project structure, examples, and usage guidance.
 
 ---
 
@@ -69,7 +151,7 @@ Explore the [Zenera Neo repository](https://github.com/zenera-ai/ZeneraNeo) for 
 
 ### Build with Zenera
 
-**[zenera.ai](https://zenera.ai)** · **[LinkedIn](https://www.linkedin.com/company/zenera-ai)** · **[YouTube](https://www.youtube.com/@Zenera_AI)**
+**[Website](https://zenera.ai)** · **[Neo on GitHub](https://github.com/zenera-ai/ZeneraNeo)** · **[LinkedIn](https://www.linkedin.com/company/zenera-ai)** · **[YouTube](https://www.youtube.com/@Zenera_AI)**
 
 <sub>Made for teams building intelligent agent systems.</sub>
 
