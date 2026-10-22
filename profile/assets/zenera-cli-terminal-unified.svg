@@ -4,7 +4,7 @@
 
   <style>
     :root {
-      --page-bg: #f6f8fa;
+      --page-bg: transparent;
       --card-bg: #ffffff;
       --card-border: #d0d7de;
       --divider: #d8dee4;
@@ -29,7 +29,7 @@
 
     @media (prefers-color-scheme: dark) {
       :root {
-        --page-bg: #0d1117;
+        --page-bg: transparent;
         --card-bg: #030d21;
         --card-border: #1c2942;
         --divider: #31415e;
@@ -155,7 +155,7 @@
 
   <!-- Header -->
   <rect x="54" y="48" width="70" height="70" rx="18" ry="18" fill="var(--icon-bg)"/>
-  <g transform="translate(70,64) scale(1.15)">
+  <g transform="translate(68,62) scale(1.75)">
     <g fill="none" stroke="var(--accent)" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
       <rect x="4" y="5" width="16" height="14" rx="2"/>
       <path d="m8 10 3 2-3 2m5 0h4"/>
@@ -202,5 +202,4 @@
     <text class="chip-text" x="286" y="28">TypeScript</text>
   </g>
 
-  <text class="corner-arrow" x="1519" y="773">↗</text>
 </svg>
