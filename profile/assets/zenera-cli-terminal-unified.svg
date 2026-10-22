@@ -187,7 +187,7 @@
 
   <text class="term-text mono" x="87" y="628">$ zen run my-project &quot;analyze this repo&quot;</text>
 
-  <rect class="ok-pill" x="81" y="656" rx="8" ry="8" width="217" height="30"/>
+  <rect class="ok-pill" x="81" y="656" rx="8" ry="8" width="257" height="30"/>
   <text class="term-ok mono" x="87" y="678">✓ Run completed</text>
 
   <!-- chips -->
