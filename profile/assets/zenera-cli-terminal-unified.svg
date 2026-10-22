@@ -176,7 +176,7 @@
   <circle cx="87" cy="408" r="7.5" fill="#ff6257"/>
   <circle cx="118" cy="408" r="7.5" fill="#f7c548"/>
   <circle cx="149" cy="408" r="7.5" fill="#1ecf65"/>
-  <text class="term-top-label" x="1456" y="416">terminal</text>
+  <text class="term-top-label" x="1440" y="416">terminal</text>
 
   <line class="term-divider" x1="81" y1="468" x2="1521" y2="468"/>
 
