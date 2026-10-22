@@ -55,14 +55,12 @@ Start with a project specification. Use the meta-agent to create or update the i
 
 ## What can you build?
 
-| Use case | Idea |
+| Example | What it does |
 | :--- | :--- |
-| **AI software development team** | Coordinate specialized agents to plan, implement, and review a software project. |
-| **Meeting coordinator** | Combine scheduling, communication, and task-handling agents into one workflow. |
-| **Document Q&A** | Connect agents to source documents and retrieve context with Zenera RAG. |
-| **API prototyping** | Use Zenera Faker to mock integrations before the real backend is available. |
+| [Documentation RAG](https://github.com/andreyryabov/ZeneraNeo/tree/main/examples/projects/01-docs-rag) | Answers questions about Hugging Face Transformers documentation and cites the source passages. |
+| [API Integration](https://github.com/andreyryabov/ZeneraNeo/tree/main/examples/projects/02-api-integration) | Coordinates a meeting using mock mail and calendar APIs, with confirmation required before writes. |
 
-Explore the [Zenera Neo repository](https://github.com/zenera-ai/ZeneraNeo) for project structure, examples, and usage guidance.
+Browse the [ZeneraNeo examples](https://github.com/andreyryabov/ZeneraNeo/tree/main/examples) for setup instructions and more.
 
 ---
 
