@@ -15,20 +15,23 @@ Design, run, test, and improve agent systems with the Zenera developer toolkit.
 
 ## Get started
 
-Install the toolkit globally:
+Install the toolkit and create a project:
 
 ```bash
 npm install -g @zenera/cli @zenera/neo @zenera/rag @zenera/faker
+zen key add openai
+zen meta model --pick
+zen init my-project
 ```
 
-Explore available commands:
+Describe what you want to build in `my-project/SPECIFICATION.md`, then generate and try it:
 
 ```bash
-zen --help
+zen meta run my-project /spec-sync-project
+zen run my-project "Ask a question your project can answer"
 ```
 
-> [!TIP]
-> New to building agent systems? Start with the [Zenera Neo repository](https://github.com/zenera-ai/ZeneraNeo) for project structure, examples, and setup guidance.
+See the [worked examples](https://github.com/andreyryabov/ZeneraNeo/tree/main/examples) for complete walkthroughs.
 
 ## Meet the toolkit
 
