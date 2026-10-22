@@ -3,44 +3,34 @@
 <img src="./assets/zenera-hero-dark.svg#gh-dark-mode-only" alt="Zenera — Build intelligent AI agents" width="100%" />
 <img src="./assets/zenera-hero-light.svg#gh-light-mode-only" alt="Zenera — Build intelligent AI agents" width="100%" />
 
-### Build specialized AI agents from a specification.
+### Making specialized AI agents practical for real work.
 
-Design, run, test, and improve agent systems with the Zenera developer toolkit.
+Zenera is an AI company building toward a more useful way to create agent
+systems: start with the work to be done, the knowledge it depends on, and the
+constraints people need it to respect. Our focus is on agents that are
+specialized, grounded in context, and designed to improve over time.
 
-[**Website**](https://zenera.ai) · [**Explore Neo**](https://github.com/zenera-ai/ZeneraNeo) · [**NPM**](https://www.npmjs.com/package/@zenera/cli)
+[**About Zenera**](https://zenera.ai) · [**LinkedIn**](https://www.linkedin.com/company/zenera-ai) · [**YouTube**](https://www.youtube.com/@Zenera_AI)
 
 </div>
 
 ---
 
-## Get started
+## Our work
 
-Install the toolkit and create a project:
+We explore this approach through **ZeneraNeo**, an open-source experimental
+project for building specialized agent systems from a specification and the
+knowledge a task depends on. It helps developers design, run, inspect, and
+improve agents for real workflows.
 
-```bash
-npm install -g @zenera/cli @zenera/neo @zenera/rag @zenera/faker
-zen key add openai
-zen meta model --pick
-zen init my-project
-```
+ZeneraNeo is a side project for experimentation; it is **not** the official
+Zenera AI Platform. The project is one way we share ideas and learn in the open
+as we work toward making agent systems more useful and dependable.
 
-Describe what you want to build in `my-project/SPECIFICATION.md`, then generate and try it:
+### ZeneraNeo packages
 
-```bash
-zen meta run my-project /spec-sync-project
-zen run my-project "Ask a question your project can answer"
-```
-
-See the [worked examples](https://github.com/andreyryabov/ZeneraNeo/tree/main/examples) for complete walkthroughs.
-
-<p align="center">
-  <img src="./assets/zenera-cli-terminal-unified.svg" alt="Zenera CLI quick start: install the CLI, create a project, and run it from the terminal" width="100%" />
-</p>
-
-## Meet the toolkit
-
-Four complementary packages take you from an initial specification to running agents and working integrations.
-
+The project brings together four packages for creating and running agent
+projects:
 
 <p align="center">
   <a href="https://www.npmjs.com/package/@zenera/cli">
@@ -114,7 +104,7 @@ Four complementary packages take you from an initial specification to running ag
 </p>
 
 
-## From specification to running agents
+## How we approach agent systems
 
 <div align="center">
 
@@ -123,25 +113,30 @@ Four complementary packages take you from an initial specification to running ag
 
 </div>
 
-Start with a project specification. Use the meta-agent to create or update the implementation, run and inspect the result, then feed findings back into the spec. Repeat as the project evolves.
+We believe people should be able to describe the work and its constraints
+without having to hand-design every agent, prompt, tool, and handoff. In
+ZeneraNeo, that idea becomes an iterative cycle: specify the job, generate an
+agent system, inspect how it performs, and use what you learn to improve it.
 
-## What can you build?
+## Examples
 
 | Example | What it does |
 | :--- | :--- |
 | [Documentation RAG](https://github.com/andreyryabov/ZeneraNeo/tree/main/examples/projects/01-docs-rag) | Answers questions about Hugging Face Transformers documentation and cites the source passages. |
 | [API Integration](https://github.com/andreyryabov/ZeneraNeo/tree/main/examples/projects/02-api-integration) | Coordinates a meeting using mock mail and calendar APIs, with confirmation required before writes. |
 
-Browse the [ZeneraNeo examples](https://github.com/andreyryabov/ZeneraNeo/tree/main/examples) for setup instructions and more.
+Explore [ZeneraNeo on GitHub](https://github.com/zenera-ai/ZeneraNeo) and browse
+the [worked examples](https://github.com/andreyryabov/ZeneraNeo/tree/main/examples)
+to see the project in action.
 
 ---
 
 <div align="center">
 
-### Build with Zenera
+### Follow Zenera
 
-**[Website](https://zenera.ai)** · **[Neo on GitHub](https://github.com/zenera-ai/ZeneraNeo)** · **[LinkedIn](https://www.linkedin.com/company/zenera-ai)** · **[YouTube](https://www.youtube.com/@Zenera_AI)**
+**[Website](https://zenera.ai)** · **[ZeneraNeo on GitHub](https://github.com/zenera-ai/ZeneraNeo)** · **[LinkedIn](https://www.linkedin.com/company/zenera-ai)** · **[YouTube](https://www.youtube.com/@Zenera_AI)**
 
-<sub>Made for teams building intelligent agent systems.</sub>
+<sub>Zenera builds toward a future where specialized AI agents can do useful work with the right context and oversight.</sub>
 
 </div>
