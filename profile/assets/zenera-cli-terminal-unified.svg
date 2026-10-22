@@ -1,0 +1,206 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820" role="img" aria-labelledby="title desc">
+  <title id="title">Zenera CLI adaptive banner</title>
+  <desc id="desc">A single SVG banner for Zenera CLI with built-in light and dark theme styling. It features a developer-tools header, a large headline, a terminal mockup, and technology tags.</desc>
+
+  <style>
+    :root {
+      --page-bg: #f6f8fa;
+      --card-bg: #ffffff;
+      --card-border: #d0d7de;
+      --divider: #d8dee4;
+      --text-main: #1f2328;
+      --text-sub: #57606a;
+      --text-muted: #6e7781;
+      --accent: #d95c00;
+      --accent-soft: rgba(217, 92, 0, 0.10);
+      --icon-bg: rgba(217, 92, 0, 0.10);
+      --chip-bg: #eaeef2;
+      --chip-text: #434a54;
+      --terminal-bg: #ffffff;
+      --terminal-border: #d0d7de;
+      --terminal-divider: #e6edf3;
+      --terminal-text: #1f2328;
+      --terminal-dim: #66707b;
+      --code-bg: #f3f4f6;
+      --ok-bg: #e7f5ec;
+      --ok-text: #1a7f37;
+      --shadow: rgba(31, 35, 40, 0.10);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --page-bg: #0d1117;
+        --card-bg: #030d21;
+        --card-border: #1c2942;
+        --divider: #31415e;
+        --text-main: #f0f6fc;
+        --text-sub: #aebacf;
+        --text-muted: #97a4ba;
+        --accent: #ff8a00;
+        --accent-soft: rgba(255, 138, 0, 0.10);
+        --icon-bg: rgba(255, 138, 0, 0.08);
+        --chip-bg: #2e3543;
+        --chip-text: #e6edf3;
+        --terminal-bg: #020b19;
+        --terminal-border: #2a3b59;
+        --terminal-divider: #22324d;
+        --terminal-text: #e6edf3;
+        --terminal-dim: #90a0bb;
+        --code-bg: #2a2f38;
+        --ok-bg: #2c2f36;
+        --ok-text: #e6edf3;
+        --shadow: rgba(0, 0, 0, 0.25);
+      }
+    }
+
+    text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      font-variant-ligatures: none;
+    }
+
+    .mono {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace;
+    }
+
+    .card {
+      fill: var(--card-bg);
+      stroke: var(--card-border);
+      stroke-width: 1.3;
+      filter: drop-shadow(0 12px 28px var(--shadow));
+    }
+
+    .terminal {
+      fill: var(--terminal-bg);
+      stroke: var(--terminal-border);
+      stroke-width: 2;
+    }
+
+    .muted { fill: var(--text-muted); }
+    .body { fill: var(--text-sub); }
+    .main { fill: var(--text-main); }
+    .divider { stroke: var(--divider); stroke-width: 2; }
+    .term-divider { stroke: var(--terminal-divider); stroke-width: 2; }
+
+    .chip {
+      fill: var(--chip-bg);
+    }
+
+    .code-pill {
+      fill: var(--code-bg);
+    }
+
+    .ok-pill {
+      fill: var(--ok-bg);
+    }
+
+    .chip-text {
+      fill: var(--chip-text);
+      font-size: 24px;
+      font-weight: 500;
+    }
+
+    .header-label {
+      fill: var(--text-main);
+      font-size: 30px;
+      font-weight: 700;
+    }
+
+    .eyebrow {
+      fill: var(--text-muted);
+      font-size: 22px;
+      letter-spacing: 1.2px;
+      font-weight: 500;
+    }
+
+    .headline {
+      fill: var(--text-main);
+      font-size: 46px;
+      font-weight: 750;
+    }
+
+    .subtitle {
+      fill: var(--text-sub);
+      font-size: 28px;
+      font-weight: 400;
+    }
+
+    .term-top-label {
+      fill: var(--terminal-dim);
+      font-size: 22px;
+      font-weight: 500;
+    }
+
+    .term-text {
+      fill: var(--terminal-text);
+      font-size: 24px;
+      font-weight: 400;
+    }
+
+    .term-ok {
+      fill: var(--ok-text);
+      font-size: 24px;
+      font-weight: 500;
+    }
+
+    .corner-arrow {
+      fill: var(--accent);
+      font-size: 38px;
+      font-weight: 700;
+    }
+  </style>
+
+  <rect x="0" y="0" width="1600" height="820" fill="var(--page-bg)"/>
+
+  <rect class="card" x="22" y="16" rx="30" ry="30" width="1556" height="800"/>
+
+  <!-- Header -->
+  <rect x="54" y="48" width="70" height="70" rx="18" ry="18" fill="var(--icon-bg)"/>
+  <g transform="translate(70,64) scale(1.15)">
+    <g fill="none" stroke="var(--accent)" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="4" y="5" width="16" height="14" rx="2"/>
+      <path d="m8 10 3 2-3 2m5 0h4"/>
+    </g>
+  </g>
+
+  <text class="header-label" x="140" y="93">ZENERA / CLI</text>
+
+  <line class="divider" x1="54" y1="158" x2="1546" y2="158"/>
+
+  <!-- Headline -->
+  <text class="headline" x="54" y="247">Build specialist agents.Run them anywhere.</text>
+  <text class="subtitle" x="54" y="321">Define agent systems in a specification. Generate, run, inspect, and improve them from your terminal.</text>
+
+  <!-- Terminal block -->
+  <rect class="terminal" x="54" y="356" rx="24" ry="24" width="1492" height="356"/>
+
+  <circle cx="87" cy="408" r="7.5" fill="#ff6257"/>
+  <circle cx="118" cy="408" r="7.5" fill="#f7c548"/>
+  <circle cx="149" cy="408" r="7.5" fill="#1ecf65"/>
+  <text class="term-top-label" x="1456" y="416">terminal</text>
+
+  <line class="term-divider" x1="81" y1="468" x2="1521" y2="468"/>
+
+  <!-- Terminal content -->
+  <text class="term-text mono" x="87" y="528">$ npm i -g @zenera/cli @zenera/neo @zenera/rag @zenera/faker</text>
+
+  <text class="term-text mono" x="87" y="578">$ zen init my-project</text>
+
+  <text class="term-text mono" x="87" y="628">$ zen run my-project &quot;analyze this repo&quot;</text>
+
+  <rect class="ok-pill" x="81" y="656" rx="8" ry="8" width="217" height="30"/>
+  <text class="term-ok mono" x="87" y="678">✓ Run completed</text>
+
+  <!-- chips -->
+  <g transform="translate(54,744)">
+    <rect class="chip" x="0" y="0" width="170" height="40" rx="20" ry="20"/>
+    <text class="chip-text" x="14" y="28">Node.js 24+</text>
+
+    <rect class="chip" x="184" y="0" width="70" height="40" rx="20" ry="20"/>
+    <text class="chip-text" x="198" y="28">MIT</text>
+
+    <rect class="chip" x="272" y="0" width="157" height="40" rx="20" ry="20"/>
+    <text class="chip-text" x="286" y="28">TypeScript</text>
+  </g>
+
+  <text class="corner-arrow" x="1519" y="773">↗</text>
+</svg>

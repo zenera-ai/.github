@@ -33,6 +33,10 @@ zen run my-project "Ask a question your project can answer"
 
 See the [worked examples](https://github.com/andreyryabov/ZeneraNeo/tree/main/examples) for complete walkthroughs.
 
+<p align="center">
+  <img src="./assets/zenera-cli-terminal-unified.svg" alt="Zenera CLI quick start: install the CLI, create a project, and run it from the terminal" width="100%" />
+</p>
+
 ## Meet the toolkit
 
 Four complementary packages take you from an initial specification to running agents and working integrations.
