@@ -1,7 +1,22 @@
 <div align="center">
+  
+`Agentic AI` · `Multi-Agent Orchestration` · `Meta-Agents` · `Recursive Self-Improvement` ·
+`Agent Fine-Tuning` · `Context Engineering` · `Agentic RAG` · `Long-Term Memory` ·
+`LLM-as-a-Judge` · `Eval-Driven Development` · `Prompt Optimization` · `Human-in-the-Loop`
+  
+
 
 <img src="./assets/zenera-hero-dark.svg#gh-dark-mode-only" alt="Zenera — Build intelligent AI agents" width="100%" />
 <img src="./assets/zenera-hero-light.svg#gh-light-mode-only" alt="Zenera — Build intelligent AI agents" width="100%" />
+
+[**About Zenera**](https://zenera.ai) · [**LinkedIn**](https://www.linkedin.com/company/zenera-ai) · [**YouTube**](https://www.youtube.com/@Zenera_AI)
+
+
+
+
+
+</div>
+<div align="center">
 
 ### Self-improving multi-agent systems for real work.
 
@@ -11,17 +26,12 @@ looks like. A **meta-agent** turns that intent into a team of specialized
 agents, and a **recursive self-improvement loop** makes them better with every
 run, backed by evals, execution traces, and human oversight.
 
-The goal is not another general-purpose chatbot, but agent systems that fit a
-domain, coordinate around a task, and improve through evidence.
-
 **People define the purpose and boundaries. Agents help build, evaluate, and
 refine the systems that do the work.**
 
-`Agentic AI` · `Multi-Agent Orchestration` · `Meta-Agents` · `Recursive Self-Improvement` ·
-`Agent Fine-Tuning` · `Context Engineering` · `Agentic RAG` · `Long-Term Memory` ·
-`LLM-as-a-Judge` · `Eval-Driven Development` · `Prompt Optimization` · `Human-in-the-Loop`
+The goal is not another general-purpose chatbot, but agent systems that fit a
+domain, coordinate around a task, and improve through evidence.
 
-[**About Zenera**](https://zenera.ai) · [**LinkedIn**](https://www.linkedin.com/company/zenera-ai) · [**YouTube**](https://www.youtube.com/@Zenera_AI)
 
 </div>
 
