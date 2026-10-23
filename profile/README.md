@@ -1,273 +1,71 @@
 <div align="center">
-  
-`Agentic AI` · `Multi-Agent Orchestration` · `Meta-Agents` · `Recursive Self-Improvement` ·
-`Agent Fine-Tuning` · `Context Engineering` · `Agentic RAG` · `Long-Term Memory` ·
-`LLM-as-a-Judge` · `Eval-Driven Development` · `Prompt Optimization` · `Human-in-the-Loop`
-  
 
+<img src="./assets/zenera-hero-dark.svg#gh-dark-mode-only" alt="Zenera — Intelligent AI solutions" width="100%" />
+<img src="./assets/zenera-hero-light.svg#gh-light-mode-only" alt="Zenera — Intelligent AI solutions" width="100%" />
 
-<img src="./assets/zenera-hero-dark.svg#gh-dark-mode-only" alt="Zenera — Build intelligent AI agents" width="100%" />
-<img src="./assets/zenera-hero-light.svg#gh-light-mode-only" alt="Zenera — Build intelligent AI agents" width="100%" />
+### Agentic AI. Generative AI. Self-Improving Systems.
 
-[**About Zenera**](https://zenera.ai) · [**LinkedIn**](https://www.linkedin.com/company/zenera-ai) · [**YouTube**](https://www.youtube.com/@Zenera_AI)
+**Engineering intelligent AI experiences that connect knowledge, reasoning, and real-world action.**
 
+At **Zenera**, we explore how **large language models (LLMs)**, **generative AI**, and **agentic AI** can move beyond one-off conversations to support complex business workflows. By combining **retrieval-augmented generation (RAG)**, **multi-agent orchestration**, and **context engineering**, we focus on AI that understands domain-specific knowledge, uses tools, and works within human-defined boundaries.
 
+Our vision is AI that does not simply produce answers, but can be **evaluated, refined, and continuously improved** through feedback, measurable outcomes, and responsible human oversight.
 
+**Connected knowledge. Intelligent action. Continuous improvement.**
 
-
-</div>
-<div align="center">
-
-### Self-improving multi-agent systems for real work.
-
-Zenera builds **agentic AI** that designs, evaluates, and fine-tunes itself.
-Describe the work, connect the knowledge and tools, and define what success
-looks like. A **meta-agent** turns that intent into a team of specialized
-agents, and a **recursive self-improvement loop** makes them better with every
-run, backed by evals, execution traces, and human oversight.
-
-**People define the purpose and boundaries. Agents help build, evaluate, and
-refine the systems that do the work.**
-
-The goal is not another general-purpose chatbot, but agent systems that fit a
-domain, coordinate around a task, and improve through evidence.
-
+[**Website**](https://zenera.ai) · [**LinkedIn**](https://www.linkedin.com/company/zenera-ai) · [**YouTube**](https://www.youtube.com/@Zenera_AI)
 
 </div>
 
 ---
 
-## What Zenera does
+## From generative AI to agentic systems
 
-Zenera is building a platform that turns a description of the work into a
-working, continuously improving agent system. Each part of the platform
-handles one piece of that lifecycle:
+**Generative AI** and modern **foundation models** make natural-language reasoning and content generation possible. **Agentic AI** extends that foundation with planning, tool use, and multi-step execution, helping transform AI assistance into meaningful workflows.
 
-| Capability | What it means |
-| :--- | :--- |
-| **Agent Factory (meta-agent)** | Describe the job in plain language. A meta-agent generates the roles, prompts, skills, tool integrations, and orchestration strategy. |
-| **Multi-agent orchestration** | Routing, handoffs, supervisor/worker patterns, and parallel execution, used only where they actually pay off. |
-| **Context engineering & agentic RAG** | Retrieval over documents and API schemas, query planning, and context selection, so each agent gets the right context rather than simply more of it. |
-| **Durable agent memory** | Long-term memory with explicit policies for what to store, reuse, and discard. |
-| **Self-improvement engine** | Trace-driven optimization: failures and wasted steps become concrete, testable changes to prompts, skills, and memory. |
-| **Agent fine-tuning** | Harness-level tuning against datasets and rubrics. Better behavior without retraining the model. |
-| **Evals & observability** | LLM-as-a-judge rubrics, regression suites, and full trajectory inspection: tool calls, retrieval, tokens, latency, and cost. |
-| **Governance & control** | Permissions, approval gates, and human-in-the-loop review wherever the work requires it. |
+We focus on **specialized AI agents** that have clear responsibilities, access to the right knowledge, and defined permissions. With **multi-agent systems**, **meta-agents**, and **agent orchestration**, complex work can be coordinated through routing, delegation, and handoffs—without assuming that every problem needs multiple agents.
 
-## What we focus on
+Reliable agents also depend on what they know. **RAG** and **agentic RAG** connect models to relevant documents and enterprise knowledge, while **context engineering** shapes which instructions, retrieved information, tool outputs, and memory an agent receives. **Persistent agent memory** and **knowledge-augmented reasoning** offer ways to make longer-running interactions more coherent and useful.
 
-- **Specialized agents and multi-agent systems.** Give each agent a clear
-  responsibility, the right tools, and explicit boundaries. Use routing,
-  handoffs, and parallel work where they help, rather than making every task
-  a multi-agent problem.
-- **Context engineering.** Bring together instructions, domain knowledge,
-  retrieval-augmented generation (RAG), API schemas, tools, and durable memory.
-  The challenge is providing the right context, not simply more context.
-- **Meta-agents and agent engineering.** Let an agent turn intent into roles,
-  prompts, skills, integrations, and an execution strategy, then help maintain
-  that system as requirements change.
-- **Evaluation-driven self-improvement.** Turn real tasks, execution traces,
-  and feedback into testable changes. Measure correctness alongside token
-  usage, latency, and unnecessary work.
-- **Observable, human-directed autonomy.** Keep goals and constraints explicit,
-  make decisions inspectable, and preserve review and approval where the work
-  requires them.
+## Continuous optimization, not just bigger models
 
-## Recursive self-improvement, with receipts
+Better AI does not always require retraining a foundation model. We are interested in **agent fine-tuning without changing model weights**—also known as **agent harness optimization**—where prompts, skills, tool selection, memory policies, and orchestration strategies are adjusted around the model. This is distinct from traditional model fine-tuning, which updates model weights.
 
-<div align="center">
+A **self-improvement loop** provides a disciplined way to evolve these systems:
 
-<img src="./assets/workflow-dark.svg#gh-dark-mode-only" alt="Iterative workflow: Specify → Generate → Run and inspect → Improve → return to the specification" width="100%" />
-<img src="./assets/workflow-light.svg#gh-light-mode-only" alt="Iterative workflow: Specify → Generate → Run and inspect → Improve → return to the specification" width="100%" />
+1. **Specify** goals, domain knowledge, constraints, and success criteria.
+2. **Run** representative tasks and capture tool calls, retrieval steps, and **execution traces**.
+3. **Evaluate** results using **AI evals**, structured rubrics, regression tests, and, where appropriate, **LLM-as-a-Judge** techniques.
+4. **Optimize and re-test** prompts, skills, context, and agent workflows; retain changes only when evidence shows improvement.
 
-</div>
+This approach connects **evaluation-driven development**, **reflective optimization**, and **recursive self-improvement**: agents may help diagnose problems and propose refinements to other agents, while people define objectives and validate outcomes. A loop creates opportunities for improvement—it does not guarantee that every run performs better than the last.
 
-A useful agent system is not finished when it produces its first answer.
-Our approach treats every run as evidence about how the system can improve:
+## Intelligent automation for real work
 
-1. **Specify** the job, source material, permissions, and success criteria.
-2. **Generate.** A meta-agent assembles the specialists, instructions, skills,
-   tools, and memory policies.
-3. **Run and evaluate** representative tasks with **trajectory-level
-   evaluation**: inspect what was retrieved, which tools ran, and what it
-   cost, not just the final answer.
-4. **Improve and re-test** through **reflective optimization** against
-   explicit rubrics. Re-run earlier cases to catch regressions, and feed
-   unresolved requirements back into the specification.
+Our interests span AI applications where grounded information, system integration, and clear controls matter:
 
-This is **recursive agent engineering**: agents help build, evaluate, and
-refine other agents. The goal stays human-defined, and every improvement must
-be demonstrated by evals rather than assumed.
+- **Enterprise AI assistants and AI copilots** that answer domain-specific questions using RAG and trusted knowledge sources.
+- **Conversational AI and customer experiences** that combine natural language, relevant context, and tool-enabled assistance.
+- **Agentic workflow automation** that connects APIs, enterprise systems, and multi-step business processes.
+- **Document intelligence** that extracts, classifies, retrieves, and summarizes complex information for human review.
+- **Multi-agent research and analysis** that coordinate information gathering, synthesis, and evaluation across specialized tasks.
 
-### Agent fine-tuning: optimize the system, not just the prompt
+Across these use cases, **AI observability**, **human-in-the-loop governance**, permission-aware tools, and traceable decisions help make intelligent automation more understandable and accountable.
 
-In ZeneraNeo, **agent fine-tuning** means optimizing the harness around a
-model: prompts, instructions, skills, and memory policies. It does **not**
-update model weights, so it works with any model and any provider, and every
-change stays readable and reversible.
+## Exploring the next wave of AI
 
-The tuning loop:
+As the field evolves, we follow developments in **self-evolving agents**, **recursive agent engineering**, **long-horizon autonomy**, **agentic memory**, **adaptive reasoning**, and **automated prompt optimization**. We are especially interested in the shift from optimizing individual prompts to engineering complete AI systems that can be measured and improved over time.
 
-- runs **dataset cases** against **rubrics**, scored by an LLM judge;
-- **diagnoses failures and wasted work** from execution traces;
-- **applies targeted changes** and runs the cases again;
-- performs **memory ablation**, comparing runs with and without memory to
-  check that stored knowledge helps rather than adds noise.
-
-Read more about [specialized agent engineering](https://github.com/andreyryabov/ZeneraNeo/blob/main/docs/specialized-agents.md)
-and [fine-tuning with datasets and rubrics](https://github.com/andreyryabov/ZeneraNeo/blob/main/docs/finetuning.md).
-
-## Where it fits
-
-Specialized, self-improving agents are most useful where work is repeatable,
-knowledge-heavy, and needs to be checked:
-
-- **Knowledge assistants** that answer from internal documentation and cite
-  their sources.
-- **Operations automation** across business APIs, with confirmation before any
-  write action.
-- **Research and analysis agents** that gather, compare, and summarize
-  information under explicit quality rubrics.
-- **Domain copilots** for support, sales, and internal teams, tuned on real
-  cases from that domain.
-
-## Exploring in the open
-
-We explore this approach through **ZeneraNeo**, an open-source experimental
-project for building specialized agent systems from a specification and the
-knowledge a task depends on. It helps developers design, run, inspect, and
-improve agents for real workflows.
-
-ZeneraNeo is an experimental side project, **not the official Zenera AI
-Platform**. It is a place to share ideas, test approaches, and learn in the open.
-
-### ZeneraNeo packages
-
-Core tools for creating and running agent projects:
-
-<p align="center">
-  <a href="https://www.npmjs.com/package/@zenera/cli">
-    <picture>
-      <source
-        media="(prefers-color-scheme: dark)"
-        srcset="./assets/card-cli-dark.svg"
-      />
-      <source
-        media="(prefers-color-scheme: light)"
-        srcset="./assets/card-cli-light.svg"
-      />
-      <img
-        src="./assets/card-cli-light.svg"
-        alt="Zenera CLI — Build and operate agent projects"
-        width="49%"
-      />
-    </picture>
-  </a>
-  <a href="https://www.npmjs.com/package/@zenera/neo">
-    <picture>
-      <source
-        media="(prefers-color-scheme: dark)"
-        srcset="./assets/card-neo-dark.svg"
-      />
-      <source
-        media="(prefers-color-scheme: light)"
-        srcset="./assets/card-neo-light.svg"
-      />
-      <img
-        src="./assets/card-neo-light.svg"
-        alt="Zenera Neo — TypeScript runtime for agent systems"
-        width="49%"
-      />
-    </picture>
-  </a>
-  <a href="https://www.npmjs.com/package/@zenera/rag">
-    <picture>
-      <source
-        media="(prefers-color-scheme: dark)"
-        srcset="./assets/card-rag-dark.svg"
-      />
-      <source
-        media="(prefers-color-scheme: light)"
-        srcset="./assets/card-rag-light.svg"
-      />
-      <img
-        src="./assets/card-rag-light.svg"
-        alt="Zenera RAG — Knowledge retrieval for documents and APIs"
-        width="49%"
-      />
-    </picture>
-  </a>
-  <a href="https://www.npmjs.com/package/@zenera/faker">
-    <picture>
-      <source
-        media="(prefers-color-scheme: dark)"
-        srcset="./assets/card-faker-dark.svg"
-      />
-      <source
-        media="(prefers-color-scheme: light)"
-        srcset="./assets/card-faker-light.svg"
-      />
-      <img
-        src="./assets/card-faker-light.svg"
-        alt="Zenera Faker — Mock integrations and generated APIs"
-        width="49%"
-      />
-    </picture>
-  </a>
-</p>
-
-## Examples
-
-| Example | What it does |
-| :--- | :--- |
-| [Documentation RAG](https://github.com/andreyryabov/ZeneraNeo/tree/main/examples/projects/01-docs-rag) | Answers questions about Hugging Face Transformers documentation and cites the source passages. |
-| [API Integration](https://github.com/andreyryabov/ZeneraNeo/tree/main/examples/projects/02-api-integration) | Coordinates a meeting using mock mail and calendar APIs, with confirmation required before writes. |
-
-Explore [ZeneraNeo on GitHub](https://github.com/zenera-ai/ZeneraNeo) and browse
-the [worked examples](https://github.com/andreyryabov/ZeneraNeo/tree/main/examples)
-to see the project in action.
-
-## Our vocabulary
-
-The field moves fast and its terms get stretched. Here is what we mean by ours:
-
-- **Agentic AI:** systems that plan, use tools, and take multi-step actions
-  toward a goal, rather than answering a single prompt.
-- **Meta-agent:** an agent whose job is to design, configure, and maintain
-  other agents.
-- **Recursive agent engineering:** agents helping build, evaluate, and improve
-  other agents, under human-defined goals.
-- **Self-improvement:** measurable gains on evals from changes proposed by the
-  system itself, verified before they are kept.
-- **Agent fine-tuning:** optimizing prompts, skills, and memory policies
-  against datasets and rubrics, without changing model weights.
-- **Context engineering:** deciding what information an agent sees, when, and
-  in what form.
-- **Eval-driven development:** treating rubrics and regression suites as the
-  definition of "better".
-
-## Related ideas and research
-
-These are useful perspectives on the wider field, not claims that ZeneraNeo
-implements these particular methods:
-
-- [Building effective agents](https://www.anthropic.com/research/building-effective-agents):
-  composable agent workflows, orchestration, and evaluator-optimizer loops.
-- [Context engineering](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents):
-  managing the information an agent needs across a long-running task.
-- [Reflexion](https://arxiv.org/abs/2303.11366):
-  using feedback and reflective memory without updating model weights.
-- [GEPA](https://arxiv.org/abs/2507.19457):
-  reflective prompt evolution guided by execution trajectories and evaluation.
+These are focus areas and research directions; they should not be read as a claim that every technique is implemented in every Zenera product.
 
 ---
 
 <div align="center">
 
-### Follow Zenera
+### Connect with Zenera
 
-**[Website](https://zenera.ai)** · **[ZeneraNeo on GitHub](https://github.com/zenera-ai/ZeneraNeo)** · **[LinkedIn](https://www.linkedin.com/company/zenera-ai)** · **[YouTube](https://www.youtube.com/@Zenera_AI)**
+**[Website](https://zenera.ai)** · **[GitHub](https://github.com/zenera-ai)** · **[LinkedIn](https://www.linkedin.com/company/zenera-ai)** · **[YouTube](https://www.youtube.com/@Zenera_AI)**
 
-<sub>Specialize around the work. Improve through evidence. Keep people in control.</sub>
+<sub>Building intelligent systems that turn AI innovation into real-world impact.</sub>
 
 </div>
